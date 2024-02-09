@@ -1,4 +1,4 @@
-# Angular + NodeJS Users Rest Api. Full Stack Development Workflow
+# Angular + NodeJS Users Rest Api. Full-Stack Development Workflow
 
 ## Goal
 
