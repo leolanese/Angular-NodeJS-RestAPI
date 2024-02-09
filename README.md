@@ -53,7 +53,10 @@ Show the use of Angular services to consume local and remote end-points, provide
 
 ## Demo
 
-![Angular users API (Node)](https://github.com/leolanese/Angular-users-API/blob/main/users-rest-api/src/app/img/demo.jpg)
+![Local users API :3000 (Node served)](https://github.com/leolanese/Angular-users-API/blob/main/users-rest-api/src/app/img/localRestFulAPI.jpg)
+
+
+![Angular View users API :4200 (Node served)](https://github.com/leolanese/Angular-users-API/blob/main/users-rest-api/src/app/img/demo.jpg)
 
 ---
 
