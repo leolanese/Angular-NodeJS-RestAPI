@@ -58,7 +58,7 @@ import cors from 'cors';
 const app = express();
 const PORT = 3000;
 
-// mock users
+// mock users locally to be served
 const users = [
   {
     "id": 1,
@@ -179,8 +179,8 @@ const users = [
 
 app.use(cors()); // Enable CORS for all routes
 
-// Checking if the application is in development mode.
-// If it is, morgan middleware is added to the express application to log HTTP requests.
+// Checking if the application is in development mode
+// If it is, morgan middleware is added to the express application to log HTTP requests
 if(process.env.MODE === 'development'){
   app.use(morgan('dev'))  
 }
