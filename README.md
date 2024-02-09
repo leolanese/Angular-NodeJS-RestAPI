@@ -43,7 +43,7 @@ Show the use of Angular services to consume local and remote end-points, provide
     - npm i morgan
     - npm i cors
     - notepad server.js (add content)
-    - node --loader ts-node/esm server.cjs
+    - node --loader ts-node/esm server.mjs
     - Adjust the `package.json` from "type": "module" to use imports
     - Test API end-point: http://localhost:3000/users
 🎇 Adding Image Source for Users
@@ -51,14 +51,22 @@ Show the use of Angular services to consume local and remote end-points, provide
     - Test App: http://localhost:4200/
 ```
 
+## Demo
+
+![Angular users API (Node)](https://github.com/leolanese/Angular-users-API/blob/main/users-rest-api/src/app/img/demo.jpg)
+
+---
+
+## Local mock users locally to be served
+
 ```js
+// server.mjs
 import express from 'express';
 import cors from 'cors';
 
 const app = express();
 const PORT = 3000;
 
-// mock users locally to be served
 const users = [
   {
     "id": 1,
@@ -196,10 +204,6 @@ app.listen(PORT, (err) =>
     (err) ? console.error(`Failed to start server: ${err}`) :  console.log(`Server running on: ${PORT}`)
 );
 ```
-
-## Demo
-
-![Angular users API (Node)](https://github.com/leolanese/Angular-users-API/blob/main/users-rest-api/src/app/img/demo.jpg)
 
 ---
 
