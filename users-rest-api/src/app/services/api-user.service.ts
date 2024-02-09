@@ -7,11 +7,14 @@ import { Observable } from 'rxjs/internal/Observable';
   providedIn: 'root'
 })
 export class APIUserService {
-  private apiUrl = "https://jsonplaceholder.typicode.com/users"
+  // Local NodeJS Rest API 
+  private restApiNodeJS = "http://localhost:3000/users" 
+  // jsonplaceholder end-points
+  private restApiJsonplaceholder = "https://jsonplaceholder.typicode.com/users"
 
   constructor(private http: HttpClient) { }
 
-  getUsers(): Observable<User[]> {
-    return this.http.get<User[]>(`${this.apiUrl}`);
+  getUsersRestApiNodeJS(): Observable<User[]> {
+    return this.http.get<User[]>(`${this.restApiNodeJS}`);
   }
 }

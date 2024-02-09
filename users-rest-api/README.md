@@ -1,4 +1,10 @@
-# UsersRestApi
+# Angular + NodeJS Users Rest Api
+
+## Goal
+
+Show the use of Angular services to consume local and remote end-points, provided localy by NodeJS and ExpressJS and remotly using JsonPlaceHolder Services. We will be using Angular 17+ with stand-alone component and services.
+
+---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
 

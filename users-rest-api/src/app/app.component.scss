@@ -1,12 +1,19 @@
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .example-card {
-    max-width: 400px;
+    max-width: 560px;
     margin: 15px;
     width: 100%;
     box-sizing: border-box;
-    background-color: #b85454; 
+    background-color: #bada55; // badass ;)
   
-    @media (min-width: 600px) {
-      max-width: 200px;
+    @media (min-width: 960px) {
+      max-width: 250px;
     }
   
     .mat-card-header {
@@ -17,7 +24,7 @@
       box-sizing: border-box;
   
       img {
-        width: 60px;
+        width: 10vw;
         height: 60px;
         border-radius: 50%;
         object-fit: cover;

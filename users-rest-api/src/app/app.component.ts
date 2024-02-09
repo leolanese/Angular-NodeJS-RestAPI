@@ -22,7 +22,7 @@ export class AppComponent {
   users: User[] = []
 
   ngOnInit() {
-    this.apiService.getUsers().subscribe((data: User[]) => {
+    this.apiService.getUsersRestApiNodeJS().subscribe((data: User[]) => {
       this.users = data.map(user => ({
         ...user,
         picture: `https://robohash.org/${user.id}.png?set=set1&size=45x45`,
