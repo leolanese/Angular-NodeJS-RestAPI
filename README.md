@@ -16,9 +16,9 @@ Show the use of Angular services to consume local and remote end-points, provide
     - ng new users-rest-api --style=scss
     - code .
     - cd /user-rest-api/npm start
-🎨 Adding Angular Material UI
+🚉 Adding Angular Material UI
     - ng add @angular/material
-➕ Adding the HttpClient
+🚙 Adding the HttpClient
     - mkdir services
     - cd src/app/services
     - ng g s API-user
@@ -26,7 +26,7 @@ Show the use of Angular services to consume local and remote end-points, provide
     - cd src/app/services
     - ng g i users
     - using HTTP Client
-📚 Defining service & interface
+🛴 Defining service & interface
     - user Interface (based on https://jsonplaceholder.typicode.com/users)
 👥 Fetching & Displaying users
 ```
