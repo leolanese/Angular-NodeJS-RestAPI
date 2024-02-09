@@ -197,6 +197,10 @@ app.listen(PORT, (err) =>
 );
 ```
 
+## Demo
+
+[Angular users API (Node)](./src/app/img/demo.jpg)
+
 ---
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.9.
