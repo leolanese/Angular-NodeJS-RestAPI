@@ -199,7 +199,7 @@ app.listen(PORT, (err) =>
 
 ## Demo
 
-[Angular users API (Node)](./src/app/img/demo.jpg)
+![Angular users API (Node)](./src/app/img/demo.jpg)
 
 ---
 
