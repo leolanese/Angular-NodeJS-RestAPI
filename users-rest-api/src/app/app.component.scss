@@ -1,0 +1,34 @@
+.example-card {
+    max-width: 400px;
+    margin: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #b85454; 
+  
+    @media (min-width: 600px) {
+      max-width: 200px;
+    }
+  
+    .mat-card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px;
+      box-sizing: border-box;
+  
+      img {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  
+    .mat-card-content {
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+ 
+  }
+  
