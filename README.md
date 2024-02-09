@@ -27,7 +27,7 @@ Show the use of Angular services to consume local and remote end-points, provide
     - ng g i users
     - using HTTP Client
 🛴 Defining service & interface
-    - user Interface (based on https://jsonplaceholder.typicode.com/users)
+    - user Interface (based on public API Service `https://jsonplaceholder.typicode.com/users`)
 👥 Fetching & Displaying users
 ```
 
